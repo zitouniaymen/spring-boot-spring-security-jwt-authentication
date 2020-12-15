@@ -36,4 +36,11 @@ public class Role {
 	public void setName(ERole name) {
 		this.name = name;
 	}
+
+	public Role(Integer id, ERole name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+	
 }
